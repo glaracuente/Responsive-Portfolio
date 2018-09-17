@@ -44,6 +44,18 @@ header {
   font-size: 24px;
 }
 
+/* The animation code */
+@keyframes name-change {
+  from {
+    background-color: #eee;
+    color:#4aaaa5;
+  }
+  to {
+    background-color: #4aaaa5;
+    color:#eee;
+  }
+}
+
 h1 {
   padding: 20px;
   color:#eee;
@@ -51,6 +63,8 @@ h1 {
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-weight: bold;
+  animation-name: name-change;
+  animation-duration: 5s;
 }
 
 nav {
